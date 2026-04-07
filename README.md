@@ -1,7 +1,7 @@
-# 缘份居 API PHP SDK
+# 缘份居 API PHP SDK（八字排盘 / 西方占星 / 紫微斗数 / 算命接口）
 
-> 传统文化信息分析与内容生成接口（PHP SDK）
-> 支持：生辰分析、合盘关系、运势参考、星盘数据等能力
+> 八字排盘 API / 西方占星 API / 紫微斗数 API / 算命接口（PHP SDK）
+> 支持：八字分析、合婚配对、每日运势、星盘排盘等能力
 
 ---
 
@@ -109,7 +109,7 @@ $result = $client->request('/api/v1/Xxx/xxx', $params, 'POST');
 
 ---
 
-## 🔑 获取 API Key
+## 🔑 获取 API Key（每日赠送调用额度）
 
 1. 访问：https://doc.yuanfenju.com
 2. 注册开发者账号
