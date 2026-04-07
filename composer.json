@@ -1,0 +1,26 @@
+{
+  "name": "yuanfenju/sdk",
+  "description": "缘份居 API PHP SDK（Yuanfenju API PHP SDK）- 传统文化数据分析与内容生成工具包",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://doc.yuanfenju.com",
+  "keywords": ["php", "sdk", "api", "astrology", "bazi", "fortune", "traditional-culture"],
+  "authors": [
+    {
+      "name": "缘份居（Yuanfenju）",
+      "homepage": "https://doc.yuanfenju.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Yuanfenju\\Sdk\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
