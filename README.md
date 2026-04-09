@@ -239,7 +239,7 @@ examples/
 对于 SDK 尚未封装的接口，可使用通用方法：
 
 ```php
-$result = $client->request('/api/v1/Xxx/xxx', $params, 'POST');
+$result = $client->request('/api/v1/Bazi/hehun', $params, 'POST');
 ```
 
 ---
